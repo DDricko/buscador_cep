@@ -1,4 +1,6 @@
 import { FiSearch } from 'react-icons/fi'
+import './styles.css'
+
 function App() {
   return (
     <div className="container">
@@ -9,11 +11,12 @@ function App() {
       type="text"
       placeholder="Digite seu cep..."
       />
-    </div>
 
     <button className="buttonSearch">
       <FiSearch size={25} color="#fff"/>
     </button>
+    
+    </div>
 
     <main>
       <h2>CEP: 40028922</h2>
