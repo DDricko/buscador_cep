@@ -14,6 +14,17 @@ function App() {
     <button className="buttonSearch">
       <FiSearch size={25} color="#fff"/>
     </button>
+
+    <main>
+      <h2>CEP: 40028922</h2>
+
+      <span>Rua: Alguma rua</span>
+      <span>Complemento: Algum Complemento</span>
+      <span>Complemento: Algum Complemento</span>
+      <span>Teste</span>
+      <span>Algo aqui também</span>
+
+    </main>
     </div>
   );
 }
